@@ -66,6 +66,10 @@ function proxy_off(){
     unset https_proxy
     unset ftp_proxy
     unset rsync_proxy
+    unset HTTP_PROXY
+    unset HTTPS_PROXY
+    unset FTP_PROXY
+    unset RSYNC_PROXY
     echo -e "Proxy environment variable removed."
 }
 ```
