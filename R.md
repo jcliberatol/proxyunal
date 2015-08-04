@@ -8,3 +8,11 @@ https_proxy=$https_proxy
 ```
 
 Asegurese de iniciar R despues de haber asignado estas variables.
+
+
+Tambien se puede utilizar el paquete httr
+
+```
+library(httr)
+set_config(use_proxy(url="proxyapp.unal.edu.co", port=8080, username="user", password="pass"))
+```
